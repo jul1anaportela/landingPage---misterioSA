@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inika', serif;
+    margin: 0 auto;
+}
+
+header {  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 16px 0;
+    background-color: #012326 ;
+    height: 80px;    
+} 
+
+header .container{
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 60px;
+    margin-left: 80px;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 32px;
+}
+
+header nav a:hover{
+    color: #6D733F; 
+}
+
+header nav ul {
+    margin-right: 80px;
+}
+
+/*Main*/
+main {
+    position: relative;
+}
+#img-principal {
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 5%;
+}
+
+#msg-principal {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    width: 70%;
+}
+
+/*Nossos Serviços*/
+
+section h2 {
+    color: #6D733F;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.img-nossos-servicos {
+    width: 70%;
+}
+
+.description p {
+    background-color: #8DA668;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    width: 70%;
+    height: 400px;
+}
+
+/*Casos Resolvidos*/
+section .titulo-branco{
+    color: #fff;
+}
+.container-casos-resolvidos {
+    padding-top: 5px;
+    padding-bottom: 200px;
+    background-color: #8DA668;
+    
+}
+
+#casos-resolvidos h2 {
+    padding-bottom: 30px;
+}
+
+.container-fantasma-cavaleiro {
+    display: flex;
+    
+}
+
+.container-fantasma-cavaleiro img {
+    width: 500px;
+    margin-left:7% ;
+    margin-right: 10%;
+}
+
+.texto-fantasma-cavaleiro h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3D4A73;
+    margin-top: 80px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.texto-fantasma-cavaleiro p,
+.texto-por-tras-da-mascara p {
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.texto-fantasma-cavaleiro {
+    width: 500px;
+}
+
+#casos-resolvidos {
+    position: relative;
+}
+
+.container-por-tras-da-mascara {
+    display: flex;
+    align-items: center;
+    background-color: #3D4A73;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 40px;
+    position: absolute;
+    top: 80%;
+}
+
+.container-por-tras-da-mascara img {
+    margin: 3%;
+    width: 200px;
+}
+
+.texto-por-tras-da-mascara {
+    margin-left: 2%;
+}
+
+.texto-por-tras-da-mascara h3 {
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+
+.texto-por-tras-da-mascara p {
+    margin-right: 5%;
+}
+
+/*Equipe*/
+#equipe h2 {
+    margin-top: 15%;
+}
+
+.equipe-misterio {
+    display: flex;
+    justify-content: space-between;
+    margin: 7%;
+}
+
+.equipe-misterio img {
+    width: 15%;
+}
+
+/*Contato*/
+.container-contato {
+    background-color: #8DA668;
+    padding-top: 0.3%;
+    padding-bottom: 3%;
+}
+
+.contatos h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+input,
+textarea,
+button {
+    font-family: 'Inika', serif;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 3%;
+}
+
+input {
+    padding-left: 1%;
+}
+
+textarea {
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 150%;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #3D4A73;
+    color: #8DA668;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #546291;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #3D4A73;
+}
+
+.social img {
+    width: 15%;
+    margin-right: 3%;
+}
+
+.venha-ate-nos p {
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #012326;
+    height: 80px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer img {
+    max-width: 100%;
+    max-height: 100%;
+}
