@@ -9,6 +9,10 @@ body {
     margin: 0 auto;
 }
 
+#burguer {
+    color: transparent;
+}
+
 header {  
     position: fixed;
     top: 0;
@@ -292,6 +296,8 @@ footer img {
     #img-principal{
         margin-top: 8%;
     }
+
+    
 
     .container-fantasma-cavaleiro img{
         width:300px;
