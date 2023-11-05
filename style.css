@@ -351,7 +351,7 @@ footer img {
 
 /*media query - smartphone*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
     header {
         height: auto;
     }
@@ -366,8 +366,8 @@ footer img {
 
     .logo-burguer{
         display: flex;
-        justify-content: space-around;
         align-items: center;
+        margin-left: 5%;
     }
 
     header nav {
@@ -381,8 +381,8 @@ footer img {
     #burguer {
         text-align: center;
         color: #fff;
-        margin-left: 50%;
         cursor: pointer;
+        margin-left: 35%;
     }
 
     #burguer:hover {
@@ -390,7 +390,11 @@ footer img {
     }
 
     #img-principal{
-        margin-top: 16%;
+        margin-top: 25%;
+    }
+
+    header nav ul {
+        margin-right: 42%;
     }
 
     header nav li {
@@ -398,31 +402,39 @@ footer img {
         margin-left: 45%;
         font-size: 20px;
         margin-bottom: 2.5%;
+        margin-right: 0;
     }
 
 /*Nossos Serviços*/
     .cards{
         display: block;
         position: relative;
+        margin-left: 24%;
     }
 
     .img-mobile1 {
         position: absolute;
-        top: 30%;
+        top: 32%;
     }
 
     .img-mobile2 {
         position: absolute;
-        top: 58%;
+        top: 61%;
     }
 
 /*Casos Resolvidos*/
+    .container-casos-resolvidos {
+        padding-top: 5%;
+    }
+
     .container-fantasma-cavaleiro {
         display: block;
     }
 
     .container-fantasma-cavaleiro img {
-        margin-left: 25%;
+        width: 60%;
+        height: 60%;
+        margin-left: 20%;
     }
 
     .texto-fantasma-cavaleiro {
@@ -431,20 +443,24 @@ footer img {
 
     .texto-fantasma-cavaleiro h3 {
         margin-top: 2%;
-        margin-left: 10%;
+        width: 400px;
+        font-size: 1em;
     }
 
     .texto-fantasma-cavaleiro p {
         margin-left: 10%;
+        margin-right: 30%;
+
     }
 
     .container-por-tras-da-mascara {
         display: block;
-        padding-bottom: 3%;
+        padding-bottom: 5%;
+        margin-left: 15%;
     }
 
     .container-por-tras-da-mascara img {
-        margin-left: 27%;
+        margin-left: 16%;
     }
 
     .texto-por-tras-da-mascara h3 {
@@ -458,7 +474,7 @@ footer img {
 
 /*Equipe*/
     #equipe h2 {
-        margin-top: 60%;
+        margin-top: 90%;
         padding-bottom: 10%;
     }
     
@@ -476,6 +492,11 @@ footer img {
     .equipe-misterio img {
         width: 30%;
         margin-bottom: 15%;
+    }
+
+    .contatos {
+        display: block;
+        margin-left: 25%;
     }
 
 }
