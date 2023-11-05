@@ -11,7 +11,7 @@ body {
 
 #burguer {
     color: transparent;
-}
+}  
 
 header {  
     position: fixed;
@@ -388,7 +388,7 @@ footer img {
     }
 
     #img-principal{
-        margin-top: 11%;
+        margin-top: 16%;
     }
 
     header nav li {
@@ -397,4 +397,83 @@ footer img {
         font-size: 20px;
         margin-bottom: 2.5%;
     }
+
+/*Nossos Serviços*/
+    .cards{
+        display: block;
+        position: relative;
+    }
+
+    .img-mobile1 {
+        position: absolute;
+        top: 30%;
+    }
+
+    .img-mobile2 {
+        position: absolute;
+        top: 58%;
+    }
+
+/*Casos Resolvidos*/
+    .container-fantasma-cavaleiro {
+        display: block;
+    }
+
+    .container-fantasma-cavaleiro img {
+        margin-left: 25%;
+    }
+
+    .texto-fantasma-cavaleiro {
+        text-align: center;
+    }
+
+    .texto-fantasma-cavaleiro h3 {
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .texto-fantasma-cavaleiro p {
+        margin-left: 10%;
+    }
+
+    .container-por-tras-da-mascara {
+        display: block;
+        padding-bottom: 3%;
+    }
+
+    .container-por-tras-da-mascara img {
+        margin-left: 27%;
+    }
+
+    .texto-por-tras-da-mascara h3 {
+        text-align: center;
+    }
+
+    .texto-por-tras-da-mascara p {
+        font-size: 13px;
+        margin-left: 2%;
+    }
+
+/*Equipe*/
+    #equipe h2 {
+        margin-top: 60%;
+        padding-bottom: 10%;
+    }
+    
+    .equipe-misterio {
+        display: block;
+        margin: 10%;
+        margin-left: 35%;
+        width: 100%;
+    }
+
+   .img-equipe {
+        display: block;
+    }
+
+    .equipe-misterio img {
+        width: 30%;
+        margin-bottom: 15%;
+    }
+
 }
