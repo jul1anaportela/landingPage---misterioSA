@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Tem algo de muito estranho acontecendo na sua cidade? Você pode entrar em contato com a equipe Mistério S.A. 
 
-- [Visite o projeto online](https://landing-page-misterio-lqpb2n9gr-jul1anaportela.vercel.app/)
+- [Visite o projeto online](https://landing-page-misterio-sa.vercel.app/)
 
 ## 🔖 Layout
 
