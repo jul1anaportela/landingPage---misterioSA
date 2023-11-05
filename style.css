@@ -193,9 +193,6 @@ section .titulo-branco{
     margin: 7%;
 }
 
-.equipe-misterio img {
-    width: 15%;
-}
 
 /*Contato*/
 .container-contato {
@@ -324,6 +321,11 @@ footer img {
 
     .texto-por-tras-da-mascara p {
         font-size: 15px;
+    }
+
+    .equipe-misterio {
+        display: block;
+        margin-left: 35%;
     }
 
     .contatos {
