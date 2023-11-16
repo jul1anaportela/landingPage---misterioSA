@@ -1,7 +1,7 @@
 <h1 align="center"> Landing Page - Mistério S.A. </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+"Eu teria conseguido, se não fossem essas crianças enxeridas" 
 </p>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
